@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home_page"
+            android:icon="@drawable/house"
+            android:title="خانه"/>
+
+        <item
+            android:id="@+id/navigation_list_category"
+            android:icon="@drawable/list"
+            android:title="لیست دسته بندی محصولات"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_shopping_cart"
+            android:icon="@drawable/shopping_bag"
+            android:title="سبد خرید"/>
+
+        <item
+            android:id="@+id/navigation_newest_products"
+            android:icon="@drawable/newest"
+            android:title="جدیدترین ها" />
+
+        <item
+            android:id="@+id/navigation_most_viewed_products"
+            android:icon="@drawable/popular"
+            android:title="پربازدیدترین ها" />
+
+        <item
+            android:id="@+id/navigation_most_points_products"
+            android:icon="@drawable/best"
+            android:title="بهترین ها" />
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation_setting"
+            android:icon="@drawable/settings"
+            android:title="تنظیمات" />
+        <item
+            android:id="@+id/navigation_frequently_questions"
+            android:icon="@drawable/question"
+            android:title="سوالات متداول"/>
+    </group>
+
+</menu>

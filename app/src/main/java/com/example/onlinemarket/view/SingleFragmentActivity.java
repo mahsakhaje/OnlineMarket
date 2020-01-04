@@ -14,13 +14,7 @@ public abstract Fragment createFragment();
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_fragment);
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        Fragment fragment = fragmentManager.findFragmentById(R.id.fragmentscontainor);
-        if (fragment == null)
-            fragmentManager
-                    .beginTransaction()
-                    .add(R.id.fragmentscontainor, createFragment())
-                    .commit();
+
 
     }
 }
